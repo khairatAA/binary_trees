@@ -23,6 +23,27 @@ int  binary_tree_perfect(const binary_tree_t *tree, int d)
 }
 
 /**
+ * binary_tree_depth - measures the depth of a binary tree
+ * @tree: pointer to the root node of the tree to measure the height
+ * Return: the depth or 0
+ */
+
+size_t binary_tree_depth(const binary_tree_t *tree)
+{
+	size_t depth;
+
+	if (tree == NULL)
+		return (0);
+
+	depth = binary_tree_depth(tree->parent);
+
+	if (tree->parent != NULL)
+		return (depth + 1);
+
+	return (0);
+}
+
+/**
  * binary_tree_is_perfect - checks if a binary tree is perfect
  * @tree: pointer to the root node of the tree to check
  * Return: 1 or 0
@@ -30,7 +51,12 @@ int  binary_tree_perfect(const binary_tree_t *tree, int d)
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
-	int d = binary_tree_depth(tree);
+	int d;
+
+	if (tree == NULL)
+		return (0);
+
+	d = binary_tree_depth(tree);
 
 	return  (binary_tree_perfect(tree, d));
 }
