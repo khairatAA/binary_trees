@@ -23,22 +23,22 @@
 
 | Task | File |
 | ---- | ---- |
-| 0. New node | [SOON](./) |
-| 1. Insert left | [SOON](./) |
-| 2. Insert right | [SOON](./) |
-| 3. Delete | [SOON](./) |
-| 4. Is leaf | [SOON](./) |
-| 5. Is root | [SOON](./) |
-| 6. Pre-order traversal | [SOON](./) |
-| 7. In-order traversal | [SOON](./) |
-| 8. Post-order traversal | [SOON](./) |
-| 9. Height | [SOON](./) |
-| 10. Depth | [SOON](./) |
-| 11. Size | [SOON](./) |
-| 12. Leaves | [SOON](./) |
-| 13. Nodes | [SOON](./) |
-| 14. Balance factor | [SOON](./) |
-| 15. Is full | [SOON](./) |
-| 16. Is perfect | [SOON](./) |
-| 17. Sibling | [SOON](./) |
-| 18. Uncle | [SOON](./) |
+| 0. New node | [0-binary_tree_node.c](./) |
+| 1. Insert left | [1-binary_tree_insert_left.c](./) |
+| 2. Insert right | [2-binary_tree_insert_right.c](./) |
+| 3. Delete | [3-binary_tree_delete.c](./) |
+| 4. Is leaf | [4-binary_tree_is_leaf.c](./) |
+| 5. Is root | [5-binary_tree_is_root.c](./) |
+| 6. Pre-order traversal | [6-binary_tree_preorder.c](./) |
+| 7. In-order traversal | [7-binary_tree_inorder.c](./) |
+| 8. Post-order traversal | [8-binary_tree_postorder.c](./) |
+| 9. Height | [9-binary_tree_height.c](./) |
+| 10. Depth | [10-binary_tree_depth.c](./) |
+| 11. Size | [11-binary_tree_size.c](./) |
+| 12. Leaves | [12-binary_tree_leaves.c](./) |
+| 13. Nodes | [13-binary_tree_nodes.c](./) |
+| 14. Balance factor | [14-binary_tree_balance.c](./) |
+| 15. Is full | [15-binary_tree_is_full.c](./) |
+| 16. Is perfect | [16-binary_tree_is_perfect.c](./) |
+| 17. Sibling | [17-binary_tree_sibling.c](./) |
+| 18. Uncle | [18-binary_tree_uncle.c](./) |
